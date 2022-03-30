@@ -1,12 +1,11 @@
+import 'antd/dist/antd.min.css';
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
  :root {
      --background: #FFFFFF;
      --blue-100: #D9F5FD;
-
      --green-500: #49bf9d;
-
      --gray-100: #F2F2F2;
      --gray-200: #F9F9F9;
      --gray-300: #e1e1e1;
@@ -18,10 +17,7 @@ export const GlobalStyle = createGlobalStyle`
      --gray-800: #636363;
      --gray-850: #302F2F;
      --gray-900: #0E0E0E;
-
      --green-500: #2CBB09;
-
-
      --white: #ffffff;
      --black: #141414;
 
@@ -43,7 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: var(--black);
+        background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
 

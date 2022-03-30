@@ -1,5 +1,13 @@
+import { Container } from "../../Components/Container/Container";
+import { Sider } from "../../Components/Sider/Sider";
+import { Main } from "./style";
+
+
 export function Home() {
     return (
-        <span>Tela inicial do meu portfolio</span>
+        <Main>
+            <Sider />
+            <Container />
+        </Main>
     )
 }
