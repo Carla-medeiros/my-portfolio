@@ -1,1 +1,31 @@
 @import 'antd/dist/antd.min.css';
+
+.devicon-html5-plain.colored {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.devicon-css3-plain.colored {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.devicon-javascript-plain.colored {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.devicon-react-original.colored {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.devicon-git-plain.colored {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.devicon-nodejs-plain.colored {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
